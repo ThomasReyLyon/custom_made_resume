@@ -1,0 +1,352 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    <div class="container-fluid h-100 pagebackground">
+        <div class="row justify-content-center h-100">
+            <div class="col-4 m-auto">
+                <h1 class="text-white">Thomas Rey</h1>
+                <div class="bounce col-4 m-auto">
+                    <a id="arrow" href="#profile" class="align-bottom"><i class="fas fa-arrow-down fa-7x"></i></a>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <div class="container-fluid resume">
+        <nav id="navi" class="col-md-2 d-none d-sm-block navbar navbar-pills sticky-top" role="navigation">
+            <div id="list-example" class="list-group col-12 navbar navbar-exl">
+                <a class="list-group-item list-group-item-action" href="#profile">Profile</a>
+                <a class="list-group-item list-group-item-action" href="#Abilities">Abilities</a>
+                <a class="list-group-item list-group-item-action" href="#projects">Projects</a>
+                <a class="list-group-item list-group-item-action" href="#experience">Experience</a>
+                <a class="list-group-item list-group-item-action" href="#contact">Contact</a>
+            </div>
+        </nav>
+
+        <section id="profile">
+
+            <div class="row justify-content-center">
+                <div class="col-12 headline-profile bg-dark mb-4 p-4">
+                    <h1 class="section-title">Who am I?</h1>
+                    <p>I'm a creative junior PHP web developer</p>
+                    <p>looking for a first work experience</p>
+                </div>
+
+
+                <div class="col-12 col-md-3 mt-4 mb-4 p-4">
+                    <h2>about me</h2>
+                    <p>I'm currently embedded in a 6-months intensive training focusing on coding and only coding.
+                        I've decided to dive into PHP and its Symfony framework, and i enjoy it a lot.
+                        I've made that leap toward a new future after a 10+ years experience in international business.
+                        <br>Time for a new challenge for me!
+                    </p>
+                </div>
+                <div class="col-6 col-md-3 mt-4 mb-4 p-4">
+                    <img src="pics/TR.png" class="img-responsive rounded-circle d-block m-auto" height=300>
+                </div>
+                <div class="col-6 col-md-3 mt-4 mb-4 p-4">
+                    <h2>details</h2>
+                    <strong>Name : </strong><p>Thomas Rey</p>
+                    <strong>Age : </strong><p>i'm 35</p>
+                    <strong>Location : </strong><p>Lyon (St-Genis-Laval)</p>
+                </div>
+
+
+
+                <div class="col-9 soft-skills mt-4 mb-4 p-4">
+                    <p>Soft Skills :</p>
+                    <ul>
+                        <li>team player</li>
+                        <li>used to work under pressure, with tight deadlines</li>
+                        <li>speak fluently French, German and English,</li>
+                        <li>organized yet creative,</li>
+                        <li>understand how a company runs, businesses opportunities and constraints.</li>
+                        <li>mature and reliable</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="Abilities">
+            <div class="row justify-content-center">
+                <div class="col-12 headline-profile bg-dark mb-4 p-4">
+                    <h1 class="section-title">What i can do</h1>
+                    <p>Skills i can bring to your organization</p>
+                </div>
+
+                <div class="col-12 col-md-9 mt-4 mb-4 p-4">
+                    <table class="table table-hover">
+                        <thead>
+                        <tr>
+                            <th scope="col">Fields</th>
+                            <th scope="col">Comment</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">PHP 5 / 7</th>
+                            <td>6 months intensive-training in PHP. <br>3 profesionnals group project led. </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Symfony 4</th>
+                            <td>Daily use during training. <br>Able to handle librairies such as Doctrine, Twig, Swift Mailer, etc... </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">MySQL</th>
+                            <td>Used on all projects</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">MVC Pattern</th>
+                            <td>Trained first on standard MVC structure, then switched to Symfony's framework.</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Object Oriented Programming</th>
+                            <td>Use of MVC Patterns and Symfony's framework</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Bootstrap 4</th>
+                            <td colspan="2">Used on all projects. <br>Able to switch to other CSS Frameworks (e.g Materialize).</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">HTML 5 / CSS 3</th>
+                            <td colspan="2">can also work with SCSS / SASS.</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">GIT</th>
+                            <td colspan="2">Extensive use on all projects. My Git Page : <a href="https://github.com/ThomasReyLyon">click here</a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Linux / Command Line Interface</th>
+                            <td colspan="2">Work on Ubuntu from the very beginning of my training.</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Agile & Scrum methodology</th>
+                            <td colspan="2">Applied on each project. Already played the role of Scrum-Master and Product Owner.</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Javascript & Jquery</th>
+                            <td colspan="2">Basics. Learning in progress</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">IDE</th>
+                            <td colspan="2">PHP Storm and Sublime Text.</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+        </section>
+
+
+        <section id="projects">
+            <div class="row justify-content-center">
+                <div class="col-12 headline-profile bg-dark mb-4 p-4">
+                    <h1 class="section-title">Projects accomplished</h1>
+                    <p>Samples of what i do <small>(after 2 months of school)</small></p>
+                </div>
+                <div class="col-12 mt-4 mb-4 p-4">
+                <h2>Completed</h2>
+                </div>
+                <div class="col-5 mt-4 mb-4 p-4">
+                    <div class="card bg-dark text-white project_card">
+                        <img src="pics/homepage_pawn.png" class="card-img project_img" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Pawn Shop</h5>
+                            <p class="card-text">Group project of 5 people. First a static website, then updated with basics PHP/SQL admin features (CRUD)</p>
+                            <p class="card-text">First month of school</p>
+                            <p class="card-text">What i've done myself:
+                            <ul>
+                                <li class="card-text">Logo and buttons</li>
+                                <li class="card-text">Caroussel on Homepage</li>
+                                <li class="card-text">Modal display</li>
+                                <li class="card-text">"Affiches" page</li>
+                                <li class="card-text">CRUD for Affiches pages</li>
+                            </ul>
+                            <p class="card-text">Visit website : <a href="#">here</a></p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-5 mt-4 mb-4 p-4">
+                    <div class="card bg-dark text-white project_card">
+                        <img src="pics/lattitude.png" class="card-img project_img" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">L'attitude Publishing</h5>
+                            <p class="card-text">Group project of 5 people. The video game publisher L'attitude want a website to sell their games.
+                            <br>The app includes the following features : user authentication and subscription, purchase pipes, from cart to effective payment (stripe),
+                                sending email (swift Mailer), dynamically display video games, news and events, admin panel to easily insert games, news or events, with pic upload, dashboard with dynimically displayed sales data.</p>
+                            <p class="card-text">Second month of school</p>
+                            <p class="card-text">What i've done myself:
+                            <ul>
+                                <li class="card-text">full purchase process : add to cart, implementation of Stripe (server-sided) and Swift Mailer to automatically send order confirmation, tracking orders</li>
+                                <li class="card-text">CRUD for video games</li>
+                                <li class="card-text">Dynamic sales Dashboard</li>
+                                <li class="card-text">support for authentication related issues</li>
+                            </ul>
+                            <p class="card-text">Visit website : <a href="#">here</a></p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <h2>In progress</h2>
+                </div>
+                <div class="col-3 mt-4 mb-4 p-4">
+                    <div class="card bg-dark text-white project_card">
+                        <img src="pics/egg_fight.png" class="card-img project_img" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Egg Fight</h5>
+                            <p class="card-text">Small game based on an API provided by the school.</p>
+                            <p class="card-text">Group project of 3 people, made in one evening during a Hackathon.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3 mt-4 mb-4 p-4">
+                    <div class="card bg-dark text-white project_card">
+                        <img src="pics/mange_courses.png" class="card-img project_img" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Mange tes courses</h5>
+                            <p class="card-text">Small project based on the OpenFoodFacts API : its runs searches that displays the selected products, or display a random pics of various items.</p>
+                            <p class="card-text">Project in Progress</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3 mt-4 mb-4 p-4">
+                    <div class="card bg-dark text-white project_card">
+                        <img src="pics/homepage_pawn.png" class="card-img project_img" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text">Last updated 3 mins ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="experience">
+
+            <div class="row justify-content-center">
+                <div class="col-12 headline-profile bg-dark mb-4 p-4">
+                    <h1 class="section-title">What i've done before</h1>
+                    <p>Where do i come from?</p>
+                </div>
+
+                <div class="col-9 mt-4 mb-4 p-4">
+                    <p>Take a look at my LinkedIn page <a href="https://www.linkedin.com/in/thomas-rey-7a941b4/" target="_blank">here</a></p>
+                </div>
+
+                <div class="col-9 mt-4 mb-4 p-4">
+                    <h2>Education</h2>
+                    <div class="row">
+
+                        <div class="col-12 col-md-6 mt-4 mb-4 p-4">
+                            <div class="card border-secondary mb-3">
+                                <div class="card-header">Web Developer Certification <br>till July 2019</div>
+                                <div class="card-body text-secondary">
+                                    <h5 class="card-title-work">Wild Code School</h5>
+                                    <ul>
+                                        <li>special emphasis on PHP and Symfony</li>
+                                        <li>6 months intensive coding training</li>
+                                        <li>3 group projects and 2 hackatons managed</li>
+                                        <li>Diploma equals a 2-years post high-school certificate</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 mt-4 mb-4 p-4">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card border-secondary mb-3">
+                                        <div class="card-header">Master 2 International Business / 2008</div>
+                                        <div class="card-body text-secondary">
+                                            <h5 class="card-title-work">Ecole Supérieure de Commerce de Clermont-Ferrand</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="card border-secondary mb-3">
+                                        <div class="card-header">MBA International Entrepreneurship / 2007</div>
+                                        <div class="card-body text-secondary">
+                                            <h5 class="card-title-work">Boston College - Wallace E. Carrol School of Management</h5>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-9 mt-4 mt-4 mb-4 p-4">
+                    <h2>Work Experiences</h2>
+                <div class="row">
+                    <div class="col-12 col-md-3 mt-4 mb-4 p-4">
+                        <div class="card border-secondary mb-3 works">
+                            <div class="card-header">Operation Supervisor <br>jan.2015- dec.2018</div>
+                            <div class="card-body text-secondary">
+                                <h5 class="card-title-work">AGIS SAS</h5>
+                                <p class="card-text-work">Foreign river cruise ships'agent in France.<br>Supported the operation of a fleet of 16 ships, handle the customer relationships
+                                with middle and top executive on a daily basis, built sales and supply partnerships, handled logistics and emergency support (24/7)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 mt-4 mb-4 p-4">
+                        <div class="card border-secondary mb-3 works">
+                            <div class="card-header">Sales Manager <br>2013 - 2014</div>
+                            <div class="card-body text-secondary">
+                                <h5 class="card-title-work">CLASSE EXPORT SAS</h5>
+                                <p class="card-text-work">Export consulting, event management & professional magazine publishing.<br> Sales of consulting services to export manager
+                                and medium-sized company CEOs.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 mt-4 mb-4 p-4">
+                        <div class="card border-secondary mb-3 works">
+                            <div class="card-header">Marketing & Controlling Manager<br>2012</div>
+                            <div class="card-body text-secondary">
+                                <h5 class="card-title-work">Hagen Grote GmbH (Germany)</h5>
+                                <p class="card-text-work">Online and catalogue sales of delicatessen.<br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 mt-4 mb-4 p-4">
+                        <div class="card border-secondary mb-3 works">
+                            <div class="card-header">Export Consultant <br>2009 - 2011</div>
+                            <div class="card-body text-secondary">
+                                <h5 class="card-title-work">Business France (Germany)</h5>
+                                <p class="card-text-work">Export Consulting dedicated to French exporting medium-sized companies<br></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact">
+
+            <div class="row justify-content-center">
+                <div class="col-12 headline-profile bg-dark mb-4 p-4">
+                    <h1 class="section-title">Contact Me</h1>
+                    <p>Want to get in touch?</p>
+                </div>
+
+
+
+            </div>
+
+
+{% endblock %}
