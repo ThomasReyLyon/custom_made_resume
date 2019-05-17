@@ -5,13 +5,14 @@ html{
 body{
     font-family: "Roboto Mono Medium for Powerline";
     height: 100%;
-    background-color: #F4F4F4;
+    /*background-color: #F4F4F4;*/
     scroll-behavior: smooth;
 }
 
 .pagebackground{
     background: no-repeat center fixed url('/pics/thomas-tastet-1056492-unsplash.jpg');
 }
+
 
 h1{
     font-size: 6em;
@@ -56,6 +57,7 @@ h1{
 
 .headline-profile{
     border-bottom : 1px solid white;
+    z-index: -2;
 }
 
 .card{
@@ -81,8 +83,18 @@ h1{
 }
 
 #navi{
-    left : 100%;
-    top : 20%;
-    z-index: 10;
+    position: fixed;
+    right: 0%;
+    top : 30%;
+    z-index: 1;
 }
-MusiquePolonaise
+
+
+.list-group-item.active{
+    color: white;
+    background-color: #212529;
+    border-color : white;
+}
+
+
+

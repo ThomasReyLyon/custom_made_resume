@@ -3,34 +3,35 @@
 {% block body %}
 
     <div class="container-fluid h-100 pagebackground">
-        <div class="row justify-content-center h-100">
+        <div class="row justify-content-center h-100 mainpage">
             <div class="col-4 m-auto">
                 <h1 class="text-white">Thomas Rey</h1>
                 <div class="bounce col-4 m-auto">
                     <a id="arrow" href="#profile" class="align-bottom"><i class="fas fa-arrow-down fa-7x"></i></a>
                 </div>
             </div>
-
-
         </div>
 
     </div>
+    <nav id="navi" class="col-2 d-none d-sm-block navbar navbar-pills sticky-top d-block" role="navigation">
+        <div id="list-example" class="list-group col-12 navbar navbar-exl">
+            <a class="list-group-item list-group-item-action" href="#profile">Profile</a>
+            <a class="list-group-item list-group-item-action" href="#Abilities">Abilities</a>
+            <a class="list-group-item list-group-item-action" href="#projects">Projects</a>
+            <a class="list-group-item list-group-item-action" href="#experience">Experience</a>
+            <a class="list-group-item list-group-item-action" href="#contact">Contact</a>
+        </div>
+    </nav>
 
 
     <div class="container-fluid resume">
-        <nav id="navi" class="col-md-2 d-none d-sm-block navbar navbar-pills sticky-top" role="navigation">
-            <div id="list-example" class="list-group col-12 navbar navbar-exl">
-                <a class="list-group-item list-group-item-action" href="#profile">Profile</a>
-                <a class="list-group-item list-group-item-action" href="#Abilities">Abilities</a>
-                <a class="list-group-item list-group-item-action" href="#projects">Projects</a>
-                <a class="list-group-item list-group-item-action" href="#experience">Experience</a>
-                <a class="list-group-item list-group-item-action" href="#contact">Contact</a>
-            </div>
-        </nav>
+
+
 
         <section id="profile">
 
             <div class="row justify-content-center">
+
                 <div class="col-12 headline-profile bg-dark mb-4 p-4">
                     <h1 class="section-title">Who am I?</h1>
                     <p>I'm a creative junior PHP web developer</p>
@@ -347,6 +348,13 @@
 
 
             </div>
+        </section>
 
+
+
+
+
+
+    </div> <!-- END main container -->
 
 {% endblock %}
