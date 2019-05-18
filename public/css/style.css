@@ -103,6 +103,7 @@ h1{
     transition: 1000ms;
 }
 
+
 #navi{
     position: fixed;
     right: 0%;
@@ -110,6 +111,15 @@ h1{
     z-index: 1;
 }
 
+@media screen and (max-width: 768px) {
+    #navi{
+        position: fixed;
+        right: 0%;
+        top : 0%;
+        z-index: 1;
+        background-color: #343a40;
+    }
+}
 
 .list-group-item.active{
     color: white;
@@ -120,7 +130,9 @@ h1{
 #contact{
     background-color: #343a40;
 }
-
+li{
+    list-style-type: none;
+}
 .body-contact{
     text-align: center;
     color: white;
@@ -128,3 +140,4 @@ h1{
 .img-responsive{
     box-shadow: 6px 6px 5px 3px grey;
 }
+
