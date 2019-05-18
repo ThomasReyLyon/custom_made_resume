@@ -4,8 +4,9 @@
 
     <div class="container-fluid h-100 pagebackground">
         <div class="row justify-content-center h-100 mainpage">
-            <div class="col-4 m-auto">
-                <h1 class="text-white">Thomas Rey</h1>
+            <img src="/pics/background_php.jpg" id="mainpic">
+            <div class="col-4 m-auto main-title">
+                <h1 class="text-white ">Thomas Rey</h1>
                 <div class="bounce col-4 m-auto">
                     <a id="arrow" href="#profile" class="align-bottom"><i class="fas fa-arrow-down fa-7x"></i></a>
                 </div>
@@ -30,7 +31,7 @@
 
         <section id="profile">
 
-            <div class="row justify-content-center">
+            <div class="row justify-content-start">
 
                 <div class="col-12 headline-profile bg-dark mb-4 p-4">
                     <h1 class="section-title">Who am I?</h1>
@@ -47,15 +48,16 @@
                         <br>Time for a new challenge for me!
                     </p>
                 </div>
-                <div class="col-6 col-md-3 mt-4 mb-4 p-4">
-                    <img src="pics/TR.png" class="img-responsive rounded-circle d-block m-auto" height=300>
-                </div>
-                <div class="col-6 col-md-3 mt-4 mb-4 p-4">
+                <div class="col-12 col-md-3 mt-4 mb-4 p-4">
                     <h2>details</h2>
                     <strong>Name : </strong><p>Thomas Rey</p>
                     <strong>Age : </strong><p>i'm 35</p>
                     <strong>Location : </strong><p>Lyon (St-Genis-Laval)</p>
                 </div>
+                <div class="col-12 col-md-3 mt-4 mb-4 p-4">
+                    <img src="pics/TR.png" class="img-responsive rounded-circle d-block m-auto border border-dark" height=300>
+                </div>
+
 
 
 
@@ -74,7 +76,7 @@
         </section>
 
         <section id="Abilities">
-            <div class="row justify-content-center">
+            <div class="row justify-content-start">
                 <div class="col-12 headline-profile bg-dark mb-4 p-4">
                     <h1 class="section-title">What i can do</h1>
                     <p>Skills i can bring to your organization</p>
@@ -144,15 +146,15 @@
 
 
         <section id="projects">
-            <div class="row justify-content-center">
+            <div class="row justify-content-start">
                 <div class="col-12 headline-profile bg-dark mb-4 p-4">
-                    <h1 class="section-title">Projects accomplished</h1>
+                    <h1 class="section-title">What i have done</h1>
                     <p>Samples of what i do <small>(after 2 months of school)</small></p>
                 </div>
                 <div class="col-12 mt-4 mb-4 p-4">
                 <h2>Completed</h2>
                 </div>
-                <div class="col-5 mt-4 mb-4 p-4">
+                <div class="col-12 col-md-5 mt-4 mb-4 p-4">
                     <div class="card bg-dark text-white project_card">
                         <img src="pics/homepage_pawn.png" class="card-img project_img" alt="...">
                         <div class="card-img-overlay">
@@ -173,7 +175,7 @@
                     </div>
                 </div>
 
-                <div class="col-5 mt-4 mb-4 p-4">
+                <div class="col-12 col-md-5 mt-4 mb-4 p-4">
                     <div class="card bg-dark text-white project_card">
                         <img src="pics/lattitude.png" class="card-img project_img" alt="...">
                         <div class="card-img-overlay">
@@ -197,7 +199,7 @@
                 <div class="col-12">
                     <h2>In progress</h2>
                 </div>
-                <div class="col-3 mt-4 mb-4 p-4">
+                <div class="col-12 col-md-3 mt-4 mb-4 p-4">
                     <div class="card bg-dark text-white project_card">
                         <img src="pics/egg_fight.png" class="card-img project_img" alt="...">
                         <div class="card-img-overlay">
@@ -208,7 +210,7 @@
                     </div>
                 </div>
 
-                <div class="col-3 mt-4 mb-4 p-4">
+                <div class="col-12 col-md-3 mt-4 mb-4 p-4">
                     <div class="card bg-dark text-white project_card">
                         <img src="pics/mange_courses.png" class="card-img project_img" alt="...">
                         <div class="card-img-overlay">
@@ -219,7 +221,7 @@
                     </div>
                 </div>
 
-                <div class="col-3 mt-4 mb-4 p-4">
+                <div class="col-12 col-md-3 mt-4 mb-4 p-4">
                     <div class="card bg-dark text-white project_card">
                         <img src="pics/homepage_pawn.png" class="card-img project_img" alt="...">
                         <div class="card-img-overlay">
@@ -235,7 +237,7 @@
 
         <section id="experience">
 
-            <div class="row justify-content-center">
+            <div class="row justify-content-start">
                 <div class="col-12 headline-profile bg-dark mb-4 p-4">
                     <h1 class="section-title">What i've done before</h1>
                     <p>Where do i come from?</p>
@@ -339,12 +341,23 @@
 
         <section id="contact">
 
-            <div class="row justify-content-center">
-                <div class="col-12 headline-profile bg-dark mb-4 p-4">
+            <div class="row justify-content-start bg-dark">
+                <div class="col-12 headline-profile bg-dark mb-4 p-4 border-0">
                     <h1 class="section-title">Contact Me</h1>
                     <p>Want to get in touch?</p>
                 </div>
 
+                <div class="col-12 mb-4 p-4 border-0 body-contact">
+                    <p>Feel free to get in touch with me if you want know more about me!</p>
+                    <p><i class="fas fa-phone-square fa-2x" style="color: white"></i>  +33 (0)6 31 90 68 59  </p>
+                    <p><i class="fas fa-envelope fa-2x"></i> thomas.rey@posteo.net </p>
+                    <p><i class="fab fa-github-square fa-2x"></i><a href="https://github.com/ThomasReyLyon"> Git Hub Profile</a></p>
+                    <p><i class="fab fa-linkedin fa-2x"></i><a href="https://www.linkedin.com/in/trey-phplyon/"> Linkedin Profile</a></p>
+                </div>
+                <div class="col-12 mb-4 p-4 border-0 body-contact">
+                    <p>100% custom-made by Thomas Rey</p>
+                    <p>Latest update : May 18th 2019</p>
+                </div>
 
 
             </div>
